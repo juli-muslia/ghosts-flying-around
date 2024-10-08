@@ -1,0 +1,6 @@
+.ghosts-image {
+    width: 200px;
+    height: auto;
+    pointer-events: none; /* Prevent blocking interaction with the page */
+    z-index: 1000; /* Make sure it's above other elements */
+}
