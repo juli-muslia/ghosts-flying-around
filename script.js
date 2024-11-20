@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
     function createghosts() {
         const img = images[Math.floor(Math.random() * images.length)];
         const $ghosts = $('<img>', {
-            src: pluginVars.pluginUrl + img,
+            src: pluginUrl + img,
             class: 'ghosts-image'
         });
 
